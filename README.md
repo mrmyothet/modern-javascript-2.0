@@ -1,3 +1,5 @@
-# Modern Javascript 2.0
+# [Modern JavaScript 2.0](https://www.traversymedia.com/modern-javascript-2-0)
 
-- Variables, DataTypes and Methods
+- Module 1: Course Introduction
+- Module 2: Variables, DataTypes and Methods
+- Module 3: Arrays & Objects
