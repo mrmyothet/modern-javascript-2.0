@@ -4,3 +4,4 @@
 - Module 1: Variables, DataTypes and Methods
 - Module 2: Arrays & Objects
 - Module 3: Functions, Scope and Execution Context
+- Module 4: Logic & Control Flow
