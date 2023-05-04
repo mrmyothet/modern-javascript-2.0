@@ -5,3 +5,4 @@
 - Module 2: Arrays & Objects
 - Module 3: Functions, Scope and Execution Context
 - Module 4: Logic & Control Flow
+- Module 5: Loops, Iteration & High Order Array Methods
