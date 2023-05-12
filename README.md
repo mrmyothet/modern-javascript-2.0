@@ -6,3 +6,4 @@
 - Module 3: Functions, Scope and Execution Context
 - Module 4: Logic & Control Flow
 - Module 5: Loops, Iteration & High Order Array Methods
+- Module 6: DOM Manipulation
