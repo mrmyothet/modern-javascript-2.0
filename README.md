@@ -8,3 +8,4 @@
 - Module 5: Loops, Iteration & High Order Array Methods
 - Module 6: DOM Manipulation
 - Module 7: Events
+- Module 8: Shopping List Project
