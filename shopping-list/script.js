@@ -41,6 +41,19 @@ function clearItems() {
   CheckUI();
 }
 
+function filterItems(e) {
+  const text = e.target.value.toLowerCase();
+
+  const items = itemList.querySelectorAll('li');
+
+  items.forEach((item) => {
+    const itemName = item.firstChild.textContent.toLowerCase();
+    itemName.indexOf(text) === -1
+      ? (item.style.display = 'none')
+      : (item.style.display = 'flex');
+  });
+}
+
 function CheckUI() {
   const items = itemList.querySelectorAll('li');
   if (items.length === 0) {
@@ -70,5 +83,7 @@ function newIcon(classList) {
 itemForm.addEventListener('submit', addItem);
 itemList.addEventListener('click', RemoveItem);
 clearBtn.addEventListener('click', clearItems);
+filterItem.addEventListener('input', filterItems);
+// window.addEventListener('DOMContentLoaded', CheckUI);
 
 CheckUI();
